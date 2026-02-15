@@ -12,6 +12,12 @@ This document captures my journey in learning cybersecurity, with a particular f
 
 ---
 
+### 🔗 اقرأ الرحلة كاملة / Read the Full Journey
+- [**📖 النسخة العربية (Arabic Version)**](https://github.com/ItsS4LEH/offensive-security-journey/tree/main/JOURNEY_AR/JOURNEY_AR)
+- [**📖 English Version (النسخة الإنجليزية)**](https://github.com/ItsS4LEH/offensive-security-journey/tree/main/JOURNEY_AR/JOURNEY_AR)
+
+---
+
 ### ⚠️ إخلاء المسؤولية / Disclaimer
 
 **[AR]**
