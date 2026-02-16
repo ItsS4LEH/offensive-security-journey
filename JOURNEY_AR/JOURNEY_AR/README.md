@@ -139,7 +139,10 @@
             - استخدم UUID أو hashed references غير متسلسلة.
             - لا تعرض IDs حساسة في client-side.
             - استخدم frameworks مع built-in object authorization (مثل Spring Security @PreAuthorize).
-            
+        
+        - **المعمل الأول لتجربة (Lab1 Trusted-ID):**
+            - [ملفات المعمل متاحة هنا](https://github.com/ItsS4LEH/offensive-security-journey/tree/main/S4PwnLab/Trusted-ID-Exploit/Lab1-Trusted-ID)
+
             ---
             
         - تزييف بيانات اعتماد الجلسة عبر التزوير – (196)
