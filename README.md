@@ -13,10 +13,10 @@ This document captures my journey in learning cybersecurity, with a particular f
 ---
 
 ### 🌐 روابط سريعة للوصول | Quick Access Links
-- [نسخة العربية على GitHub](https://github.com/ItsS4LEH/offensive-security-journey/tree/main/JOURNEY_AR/JOURNEY_AR)  
+- [نسخة العربية على GitHub](https://github.com/ItsS4LEH/offensive-security-journey/tree/main/JOURNEY_AR)  
 - [نسخة العربية على Notion](https://rightful-camel-32e.notion.site/AR-303fea99c3b7808c9112c88555ecb905)  
   *(موصى بها: محدثة بشكل شبه يومي وبتنسيق تقني أفضل)*  
-- [English Version on GitHub](https://github.com/ItsS4LEH/offensive-security-journey/tree/main/JOURNEY_AR/JOURNEY_AR)  
+- [English Version on GitHub](https://github.com/ItsS4LEH/offensive-security-journey/tree/main/JOURNEY_AR)  
 - [English Version on Notion](https://rightful-camel-32e.notion.site/AR-303fea99c3b7808c9112c88555ecb905)  
   *(Recommended: Updated almost daily with enhanced layout)*
 
