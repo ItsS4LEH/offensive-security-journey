@@ -141,7 +141,7 @@
             - استخدم frameworks مع built-in object authorization (مثل Spring Security @PreAuthorize).
         
         - **المعمل الأول لتجربة (Lab1 Trusted-ID):**
-            - [ملفات المعمل متاحة هنا](https://github.com/ItsS4LEH/offensive-security-journey/tree/main/S4PwnLab/Trusted-ID-Exploit/Lab1-Trusted-ID)
+            - [ملفات المعمل متاحة هنا](https://github.com/ItsS4LEH/offensive-security-journey/tree/main/S4PwnLab/01-TrustedID/Lab1-TrustedID)
 
             ---
             
