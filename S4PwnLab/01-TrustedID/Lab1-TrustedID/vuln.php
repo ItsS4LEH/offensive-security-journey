@@ -41,6 +41,6 @@ h2{text-align:center;margin-bottom:25px;color:#2c3e50;font-weight:600;}
 <?php else: ?>
 <div class="message">User Not Found</div>
 <?php endif; ?>
-<div class="nav"><a href="Lab1-Trusted-ID-Secure.php">Go to Secure page</a></div>
+<div class="nav"><a href="secure.php">Go to Secure page</a></div>
 </body>
 </html>

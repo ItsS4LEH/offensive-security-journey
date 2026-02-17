@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$database = "labs";
+$database = "s4pwnlab";
 
 $conn = new mysqli($servername, $username, $password, $database);
 

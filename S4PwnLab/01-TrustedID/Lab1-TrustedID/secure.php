@@ -38,6 +38,6 @@ h2{text-align:center;margin-bottom:25px;color:#2c3e50;font-weight:600;}
 <div class="row"><span class="label">Password</span><span class="value"><?php echo $user['password']; ?></span></div>
 <div class="row"><span class="label">Role</span><span class="value role"><?php echo $user['role']; ?></span></div>
 </div>
-<div class="nav"><a href="Lab1-Trusted-ID-Vuln.php">Go to Vulnerable page</a></div>
+<div class="nav"><a href="vuln.php">Go to Vulnerable page</a></div>
 </body>
 </html>

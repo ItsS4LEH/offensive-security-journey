@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 16, 2026 at 08:47 PM
+-- Generation Time: Feb 17, 2026 at 11:57 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -18,10 +18,8 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `labs`
+-- Database: `s4pwnlab`
 --
-CREATE DATABASE IF NOT EXISTS `labs` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-USE `labs`;
 
 -- --------------------------------------------------------
 
@@ -29,26 +27,24 @@ USE `labs`;
 -- Table structure for table `users`
 --
 
-DROP TABLE IF EXISTS `users`;
 CREATE TABLE IF NOT EXISTS `users` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `username` varchar(50) NOT NULL,
-  `email` varchar(100) NOT NULL,
-  `phone` varchar(20) DEFAULT NULL,
+  `username` varchar(100) DEFAULT NULL,
+  `email` varchar(150) NOT NULL,
+  `phone` varchar(20) NOT NULL,
   `password` varchar(255) NOT NULL,
-  `role` varchar(20) NOT NULL,
+  `role` varchar(50) NOT NULL,
   PRIMARY KEY (`id`),
-  UNIQUE KEY `username` (`username`),
   UNIQUE KEY `email` (`email`)
-) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `users`
 --
 
 INSERT INTO `users` (`id`, `username`, `email`, `phone`, `password`, `role`) VALUES
-(1, 'Admin', 'admin@test.com', '+1000000001', 'admin123', 'admin'),
-(2, 'SuperAdmin', 'superadmin@test.com', '+1000000002', 'super123', 'admin'),
+(1, 'admin', 'admin@test.com', '+1000000001', 'admin', 'admin'),
+(2, 'superadmin', 'superadmin@test.com', '+1000000002', 'super123', 'admin'),
 (3, 'Omar', 'omar.admin@test.com', '+1000000003', 'Omar2026!', 'admin'),
 (4, 'Sara', 'sara.admin@test.com', '+1000000004', 'iloveyou', 'admin'),
 (5, 'Michael', 'michael.admin@test.com', '+1000000005', 'qwerty', 'admin'),
@@ -66,7 +62,8 @@ INSERT INTO `users` (`id`, `username`, `email`, `phone`, `password`, `role`) VAL
 (17, 'Ethan', 'ethan@test.com', '+1000000017', 'qwerty123', 'user'),
 (18, 'Hassan', 'hassan@test.com', '+1000000018', 'abc12345', 'user'),
 (19, 'Mariam', 'mariam@test.com', '+1000000019', '123qwe', 'user'),
-(20, 'Isabella', 'isabella@test.com', '+1000000020', 'admin1', 'user');
+(20, 'Isabella', 'isabella@test.com', '+1000000020', 'admin1', 'user'),
+(21, 'test', 'test@test.com', '+1000000021', 'test', 'user');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

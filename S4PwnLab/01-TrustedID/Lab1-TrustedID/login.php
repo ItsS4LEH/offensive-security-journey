@@ -10,7 +10,7 @@ if($_SERVER['REQUEST_METHOD']==='POST'){
     $res=$stmt->get_result();
     if($res->num_rows>0){
         $_SESSION['user_id']=$res->fetch_assoc()['id'];
-        header("Location: Lab1-Trusted-ID-Vuln.php"); exit;
+        header("Location: vuln.php"); exit;
     } else { $message="Invalid credentials"; }
     $stmt->close();
 }
