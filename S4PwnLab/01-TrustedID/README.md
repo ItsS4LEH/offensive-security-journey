@@ -105,10 +105,10 @@ HTTP/1.1 200 OK
 - لا تعرض IDs حساسة في client-side.
 - استخدم frameworks مع built-in object authorization (مثل Spring Security @PreAuthorize).
 
-### المعمل الأول لتجربة (Lab1 Trusted-ID):
+### المعمل الأول لتجربة (Lab1-TrustedID):
 
 - ملفات المعمل متاحة هنا:  
-  https://github.com/ItsS4LEH/offensive-security-journey/tree/main/S4PwnLab/Trusted-ID-Exploit/Lab1-Trusted-ID
+  [Lab1-TrustedID](https://github.com/ItsS4LEH/offensive-security-journey/tree/main/S4PwnLab/01-TrustedID/Lab1-TrustedID)
 
 ---
 
@@ -216,4 +216,4 @@ Critical (Critical/P1) – PII leakage, modification/deletion, financial impact.
 ### First Lab for Practice (Lab1 Trusted-ID):
 
 - Lab files available here:  
-  https://github.com/ItsS4LEH/offensive-security-journey/tree/main/S4PwnLab/Trusted-ID-Exploit/Lab1-Trusted-ID
+  [Lab1-TrustedID](https://github.com/ItsS4LEH/offensive-security-journey/tree/main/S4PwnLab/01-TrustedID/Lab1-TrustedID)
